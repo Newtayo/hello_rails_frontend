@@ -30,6 +30,6 @@
     ],
     "ignorePatterns": [
       "dist/",
-      "build/"
+      "build/", 
     ]
   }
