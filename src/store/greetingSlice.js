@@ -26,7 +26,6 @@ const greetingSlice = createSlice({
       }))
       .addCase(fetchGreeting.fulfilled, (state, action) => {
         const data = action.payload;
-        console.log(data.message);
         return {
           ...state,
           greeting: data.message,
